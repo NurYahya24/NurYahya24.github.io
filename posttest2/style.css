@@ -1,0 +1,98 @@
+.kepala{
+    text-align-last: left;
+    color:white;
+    background-color: blue;
+    padding: 30px 30px;
+    width: 80%;
+    position: absolute;
+    left: 7%;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 25px 25px 30px rgba(112, 102, 197, 0.568);
+}
+.navBarYey{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 74.5%;
+    top: 17%;
+    background-color: rgb(190, 111, 226);
+    border-radius: 5px;
+}
+.badan{
+    text-align-last: left;
+    color:white;
+    background-color: blue;
+    padding: 30px 30px;
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 25px 25px 30px rgba(112, 102, 197, 0.568);
+}
+.badanKANAN{
+    text-align-last: left;
+    color:white;
+    background-color: blue;
+    padding: 30px 30px;
+    width: 54%;
+    height: 65%;
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 25px 25px 30px rgba(112, 102, 197, 0.568);
+}
+input[type=button]{
+    background-color: #779cec;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    border-radius: 7px;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  #atas a:link,#atas a:visited {
+    background-color: #2fa8b8;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #atas a:hover,#atas a:active {
+    background-color: rgba(46, 132, 212, 0.267);
+  }
+.kaki{
+  text-align-last: center;
+  color:rgb(117, 115, 115);
+  background-color: rgba(226, 226, 231, 0.808);
+  padding: 30px 30px;
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 150%;
+  font-family: agency FB;
+}
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
