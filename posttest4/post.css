@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    
+}
+
+.kontainer{
+    background-color: rgb(223, 235, 240);
+    padding: 1rem 2rem;
+    max-width: 400px;
+    border-radius: 30px;
+    user-select: none;
+}
+.title{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.title img{
+    width: 50px;
+    border-radius: 10rem;
+    border: 1px solid wheat;
+    margin-right: 1.2rem;
+}
+.info h4{
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+}
+.info p{
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1.2rem;
+}
+.tweet{
+    padding: 0.8rem 0;
+    cursor: text;
+}
